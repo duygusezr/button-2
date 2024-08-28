@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace dugme_oyunu
+namespace WinFormsApp2
 {
     public partial class Form1 : Form
     {
@@ -30,8 +30,41 @@ namespace dugme_oyunu
             int[] numbers = Enumerable.Range(1, 24).ToArray();
             Shuffle(numbers); // Düðme numaralarýný karýþtýr
 
-            // Ýlk düðme düzenlemesi
+            // Initialize and arrange buttons
+            InitializeButtons(numbers);
             ArrangeButtons();
+        }
+
+        private void InitializeButtons(int[] numbers)
+        {
+            int numberIndex = 0;
+            for (int i = 0; i < gridSize; i++)
+            {
+                for (int j = 0; j < gridSize; j++)
+                {
+                    Button btn = new Button();
+                    btn.Size = new Size(this.ClientSize.Width / gridSize, this.ClientSize.Height / gridSize);
+                    btn.Location = new Point(j * btn.Width, i * btn.Height);
+
+                    // Add button text except for the last button (empty button)
+                    if (numberIndex < numbers.Length)
+                    {
+                        btn.Text = numbers[numberIndex].ToString();
+                        numberIndex++;
+                    }
+                    else
+                    {
+                        btn.Text = ""; // The last button is the empty one
+                        emptyButton = btn; // Save the empty button reference
+                    }
+
+                    btn.Click += Button_Click; // Add click event handler
+
+                    // Add button to the form
+                    this.Controls.Add(btn);
+                    buttons[i, j] = btn;
+                }
+            }
         }
 
         private void Form1_Resize(object sender, EventArgs e)
