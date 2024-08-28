@@ -1,0 +1,17 @@
+C:\Users\duygu\Documents\GitHub\button-2\bin\Debug\net8.0-windows\WinFormsApp2.exe
+C:\Users\duygu\Documents\GitHub\button-2\bin\Debug\net8.0-windows\WinFormsApp2.deps.json
+C:\Users\duygu\Documents\GitHub\button-2\bin\Debug\net8.0-windows\WinFormsApp2.runtimeconfig.json
+C:\Users\duygu\Documents\GitHub\button-2\bin\Debug\net8.0-windows\WinFormsApp2.dll
+C:\Users\duygu\Documents\GitHub\button-2\bin\Debug\net8.0-windows\WinFormsApp2.pdb
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\WinFormsApp2.Form1.resources
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\WinFormsApp2.csproj.GenerateResource.cache
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\WinFormsApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\WinFormsApp2.AssemblyInfoInputs.cache
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\WinFormsApp2.AssemblyInfo.cs
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\WinFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\WinFormsApp2.sourcelink.json
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\WinFormsApp2.dll
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\refint\WinFormsApp2.dll
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\WinFormsApp2.pdb
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\WinFormsApp2.genruntimeconfig.cache
+C:\Users\duygu\Documents\GitHub\button-2\obj\Debug\net8.0-windows\ref\WinFormsApp2.dll

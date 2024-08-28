@@ -15,7 +15,7 @@ namespace WinFormsApp2
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
+            this.MaximizeBox = true;
 
             // Baþlangýçta pencere boyutunu belirleyin
             this.ClientSize = new Size(600, 400); // Geniþlik 600, yükseklik 400
